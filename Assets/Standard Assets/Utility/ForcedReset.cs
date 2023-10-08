@@ -1,9 +1,14 @@
 using System;
 using UnityEngine;
+// Added
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof (GUITexture))]
+// Depreciated - Removed 
+//[RequireComponent(typeof (GUITexture))]
+// Added
+[RequireComponent(typeof (UnityEngine.UI.Image))]
 public class ForcedReset : MonoBehaviour
 {
     private void Update()
