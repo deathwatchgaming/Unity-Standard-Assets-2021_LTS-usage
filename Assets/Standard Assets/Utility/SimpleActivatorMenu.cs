@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+
 // Added
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ namespace UnityStandardAssets.Utility
     {
         // An incredibly simple menu which, when given references
         // to gameobjects in the scene
-        // Depreciated - Removed
+        // Removed - Depreciated
         //public GUIText camSwitchButton;
         // Added
         public Text camSwitchButton;
